@@ -1,0 +1,6 @@
+Version=1.0
+Type=Application
+Terminal=False
+Exec=/usr/bin/python3 /home/minhinc/tmp/MISC/extra/imagemover.py
+Name=ImageMover
+Icon=/home/minhinc/tmp/imagemover/desktop/imagemover.png

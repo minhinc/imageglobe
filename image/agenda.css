@@ -1,0 +1,39 @@
+/** {margin:0px;padding:0px;font-family:mytwcenmt,mybembo; font-size:13pt;color:#000; text-decoration:none;}
+html{overflow:scroll;}
+body {width:860;margin:0 auto;background-color:#fff;}*/
+/*pg, every page*/
+div.pg {position:relative;page-break-after:always;page-break-inside:avoid;}
+/*div.pg {position:relative;}*/
+div.pg h2{display:inline;}
+div.pg hr{float:left;width:100%;color:#888888}
+div.pg pre {white-space:pre-wrap;}
+div.pg a{color:#0000aa;font-size:13pt;font-family:mytwcenmt;text-decoration:none}
+div.pg pre.ftr{position:absolute;bottom:0px;left:45%;color:#004000;font-family:mytwcenmt;font-size:8pt}
+div.pg pre.pn{position:absolute;bottom:0px;right:0px;color:#040;font-family:mytwcenmt;font-size:8pt}
+div.pg a.pn{position:absolute;bottom:0px;right:0px;color:#040;font-family:mytwcenmt;font-size:8pt}
+div.pg div.clr {clear:both;}
+div.pg span.dot {height:8px;width:8px;border-radius:50%;vertical-align:middle;display:inline-block;}
+div.pg span.dot1 {height:7px;width:7px;border-radius:50%;vertical-align:middle;display:inline-block;}
+div.pg span.dot2 {height:6px;width:6px;border-radius:50%;vertical-align:middle;display:inline-block;}
+
+div.pg a.logo{position:absolute;width:100%;top:50%;text-align:center}
+div.pg a.logo pre {position:relative;font-family:'Tw Cen MT';color:#040;width:420px;font-size:56px;margin-left:auto;margin-right:auto;}
+div.pg a.logo pre span{position:absolute;font-family:'Tw Cen MT';color:#888;font-size:16pt;top:10px;left:1px;}
+div.pg img.logo{position:absolute;top:44%;left:64%;}
+/*div.pg pre.logot{position:absolute;top:46%;left:44%;font-family:mytwcenmt;color:#040;font-size:48pt}
+div.pg pre.logob{position:absolute;top:51%;left:40.4%;font-family:mytwcenmt;color:#888;font-size:9pt}
+div.pg img.logo{position:absolute;top:46%;left:57.6%;}*/
+
+div.pg pre.title{text-align:center;font-size:24pt;font-weight:bold;}
+div.pg pre.subtitle{text-align:center;font-size:18pt;}
+/*div.pg pre.company{text-align:center;font-size:16pt;margin-bottom:100px;color:#004000;font-family:mytwcenmt}*/
+div.pg pre.company{text-align:center;font-size:16pt;color:#004000;font-family:mytwcenmt}
+div.pg div.headerleft{float:left;background-color:#c9c6ff;height:100%;width:24.9%;font-weight:bold;font-size:16pt;}
+div.pg div.headerright{float:right;background-color:#eaebff;height:100%;width:74.9%;}
+div.pg div.headerleft > pre{font-size:16pt;padding:10 0 0 10;font-family:mytwcenmt}
+div.pg div.headerright > pre{padding:10 0 0 10;font-family:mytwcenmt}
+
+div.pg div.header2 pre.header {background-color:#c9c6ff;font-size:16pt;font-weight:bold;font-family:mytwcenmt;padding-left:10px;}
+div.pg div.header2 pre.content {background-color:#eaebff;padding:10 0 0 10;font-family:mytwcenmt}
+
+div.pg div.dayheader {floa
